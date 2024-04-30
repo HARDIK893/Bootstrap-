@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Gallery</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Custom styles */
+    .image-gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .image-gallery li {
+      margin-bottom: 20px;
+    }
+
+    .image-gallery img {
+      width: 100%;
+      height: auto;
+      transition: transform 0.3s ease;
+    }
+
+    .image-gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    .mark{
+        background-color: aqua;
+        color: magenta;
+        font-size: large ;
+        font-family: sans-serif;
+        justify-content: center;
+    }
+
+    .asses1{
+        color: black;
+        font-size: medium;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        text-align: center;
+    }
+  </style>
+</head>
+<body>
+   <div> <marquee class="mark">Photo gallery Hardik___________________________________Photo gallery Hardik___________________________________Photo gallery Hardik___________________________________Photo gallery Hardik___________________________________</marquee></div>
+
+   <br>
+
+
+   <div class="asses1"> <b>Bootstrap Assesment</b></div>
+
+<div class="container mt-5">
+  <ul class="image-gallery">
+    <li class="col-md-3"><img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" alt="Image 1"></li>
+    <li class="col-md-3"><img src="https://w0.peakpx.com/wallpaper/42/267/HD-wallpaper-nature-scenery-scenery-nature.jpg" alt="Image 2"></li>
+    <li class="col-md-3"><img src="https://c4.wallpaperflare.com/wallpaper/131/774/322/background-pictures-nature-hd-images-1920x1200-wallpaper-preview.jpg" alt="Image 3"></li>
+    <li class="col-md-3"><img src="https://wallpapercave.com/wp/trlzN6b.jpg" alt="Image 4"></li>
+    <li class="col-md-3"><img src="https://img.freepik.com/free-photo/colorful-trees-autumn-forest-generative-al_169016-28572.jpg" alt="Image 5"></li>
+    <li class="col-md-3"><img src="https://img.freepik.com/free-photo/colorful-majestic-waterfall-national-park-forest-during-autumn_554837-661.jpg" alt="Image 6"></li>
+    <li class="col-md-3"><img src="https://img.freepik.com/free-photo/beautiful-landscape-mother-nature_23-2148992406.jpg?t=st=1714468329~exp=1714468929~hmac=6f11f3ed820e2f5fa3246c2258d52f16922682c0c2547a545be01355ccc681d5" alt="Image 7"></li>
+    <li class="col-md-3"><img src="https://img.freepik.com/free-photo/view-spectacular-nature-landscape_23-2150763636.jpg" alt="Image 8"></li>
+
+
+    
+  </ul>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
